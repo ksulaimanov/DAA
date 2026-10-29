@@ -1,0 +1,11 @@
+tree: [1, None, 2, 3]
+push  1  (go left)   stack=[1]
+pop   1  (visit)     stack=[]  result=[1]
+     go right -> 2
+push  2  (go left)   stack=[2]
+push  3  (go left)   stack=[2, 3]
+pop   3  (visit)     stack=[2]  result=[1, 3]
+     go right -> None
+pop   2  (visit)     stack=[]  result=[1, 3, 2]
+     go right -> None
+result: [1, 3, 2]

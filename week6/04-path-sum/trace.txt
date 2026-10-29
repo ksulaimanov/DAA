@@ -1,0 +1,8 @@
+tree: [5, 4, 8, 11, None, 13, 4, 7, 2, None, None, None, 1]  target: 22
+pop  5: remaining after it =  17   leaf=False
+pop  4: remaining after it =  13   leaf=False
+pop 11: remaining after it =   2   leaf=False
+pop  7: remaining after it =  -5   leaf=True
+pop  2: remaining after it =   0   leaf=True
+     leaf and remaining == 0 -> True
+result: True

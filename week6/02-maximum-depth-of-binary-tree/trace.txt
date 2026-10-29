@@ -1,0 +1,11 @@
+tree: [3, 9, 20, None, None, 15, 7]
+pop  3 at depth 1   best=1
+     push  9 with depth 2
+     push 20 with depth 2
+pop 20 at depth 2   best=2
+     push 15 with depth 3
+     push  7 with depth 3
+pop  7 at depth 3   best=3
+pop 15 at depth 3   best=3
+pop  9 at depth 2   best=3
+result: 3

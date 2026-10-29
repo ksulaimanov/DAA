@@ -1,0 +1,5 @@
+tree: [3, 9, 20, None, None, 15, 7]
+pop  3 at depth 1: not a leaf, push its children
+     queue=[(9, 2), (20, 2)]
+pop  9 at depth 2: it is a leaf -> answer 2
+result: 2

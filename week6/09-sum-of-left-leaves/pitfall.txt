@@ -1,0 +1,4 @@
+tree: [1, 2, 3, 4, 5] (the only left leaf is 4)
+correct                  : 4
+sum of all left children : 6
+sum of all leaves        : 12

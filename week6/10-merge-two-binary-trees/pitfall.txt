@@ -1,0 +1,4 @@
+tree 1: [1, 3, 2, 5]
+tree 2: [2, 1, 3, None, 4, None, 7]
+mine                            : [3, 4, 5, 5, 4, None, 7]
+return None if one side is empty: [3, 4, 5]

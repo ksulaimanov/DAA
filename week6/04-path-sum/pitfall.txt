@@ -1,0 +1,6 @@
+tree [1, 2], target 1 (root is not a leaf, so the answer is False)
+  correct          : False
+  check every node : True
+tree [10, -5], target 5 (10 + -5 = 5, so the answer is True)
+  correct          : True
+  prune if sum > target: False

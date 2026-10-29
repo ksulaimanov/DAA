@@ -1,0 +1,12 @@
+tree 1: [1, 3, 2, 5]
+tree 2: [2, 1, 3, None, 4, None, 7]
+pair a=1, b=2: a.val becomes 3
+   left : both have a child -> push pair (3, 1)
+   right: both have a child -> push pair (2, 3)
+pair a=2, b=3: a.val becomes 5
+   left : no children
+   right: only b has 7 -> attach b's subtree to a
+pair a=3, b=1: a.val becomes 4
+   left : only a has 5 -> keep it
+   right: only b has 4 -> attach b's subtree to a
+result: [3, 4, 5, 5, 4, None, 7]

@@ -1,0 +1,16 @@
+tree: [4, 2, 7, 1, 3, 6, 9]
+invert(4)
+  invert(7)
+    invert(9)
+    swap done at 9: left=None, right=None
+    invert(6)
+    swap done at 6: left=None, right=None
+  swap done at 7: left=9, right=6
+  invert(2)
+    invert(3)
+    swap done at 3: left=None, right=None
+    invert(1)
+    swap done at 1: left=None, right=None
+  swap done at 2: left=3, right=1
+swap done at 4: left=7, right=2
+result: [4, 7, 2, 9, 6, 3, 1]
